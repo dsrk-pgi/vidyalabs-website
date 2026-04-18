@@ -266,7 +266,7 @@ END:VCARD`
               Want to Join Our Team?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              We're always looking for talented individuals who are passionate about technology and innovation.
+              We&apos;re always looking for talented individuals who are passionate about technology and innovation.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link 

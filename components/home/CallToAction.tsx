@@ -24,7 +24,7 @@ export default function CallToAction() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Let's build something amazing together. Get started with a free consultation and discover how we can help you achieve your goals.
+            Let&apos;s build something amazing together. Get started with a free consultation and discover how we can help you achieve your goals.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

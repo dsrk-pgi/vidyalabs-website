@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Star, Quote } from 'lucide-react'
+import Image from 'next/image'
 
 const testimonials = [
   {
@@ -84,11 +85,14 @@ export default function Testimonials() {
               className="glass-card group hover:shadow-2xl transition-all duration-300"
             >
               <div className="flex items-start gap-4 mb-4">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                <div className="relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+                  <Image 
+                    src={testimonial.image} 
+                    alt={testimonial.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
                 <div className="flex-1">
                   <h4 className="font-semibold text-gray-900 dark:text-white">
                     {testimonial.name}
@@ -110,7 +114,7 @@ export default function Testimonials() {
               </div>
               
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </p>
             </motion.div>
           ))}
