@@ -31,7 +31,7 @@ export default function ContactPage() {
               Get in <span className="gradient-text">Touch</span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Let's discuss how we can help transform your business with our innovative solutions
+              Let&apos;s discuss how we can help transform your business with our innovative solutions
             </p>
           </motion.div>
         </div>
