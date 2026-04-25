@@ -197,7 +197,7 @@ export default function ProductsPage() {
                 >
                   <div className={`grid lg:grid-cols-2 gap-8 ${index % 2 === 0 ? '' : 'lg:grid-flow-dense'}`}>
                     {/* Product Image */}
-                    <div className={`relative h-64 lg:h-full min-h-[300px] overflow-hidden ${index % 2 === 0 ? '' : 'lg:col-start-2'}`}>
+                    <div className={`relative h-64 lg:h-full min-h-[300px] overflow-hidden bg-gray-200 dark:bg-gray-800 ${index % 2 === 0 ? '' : 'lg:col-start-2'}`}>
                       <div className={`absolute inset-0 bg-gradient-to-br ${product.color} opacity-20 z-10`}></div>
                       <Image 
                         src={product.image}
@@ -206,6 +206,11 @@ export default function ProductsPage() {
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, 50vw"
                         priority={index === 0}
+                        quality={90}
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.style.display = 'none';
+                        }}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                       <div className="absolute bottom-6 left-6 z-20">
