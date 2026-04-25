@@ -7,7 +7,7 @@ import { School, Home, Utensils, ShoppingBag, ArrowRight } from 'lucide-react'
 const products = [
   {
     icon: School,
-    title: 'Smart Campus System',
+    title: 'eVidyalya',
     description: 'Complete campus management solution with student portal, attendance, fees, and academic management.',
     features: ['Student Management', 'Attendance Tracking', 'Fee Management', 'Academic Portal'],
     image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop',

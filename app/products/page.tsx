@@ -7,8 +7,8 @@ import { School, Building2, UtensilsCrossed, Store, Briefcase, ArrowRight, Check
 
 const products = [
   {
-    id: 'smart-campus',
-    name: 'Smart Campus System',
+    id: 'evidyalya',
+    name: 'eVidyalya',
     tagline: 'Complete School & College Management',
     description: 'An all-in-one intelligent campus management system that streamlines every aspect of educational institution operations.',
     icon: School,
@@ -30,7 +30,7 @@ const products = [
       'Data-driven insights'
     ],
     demoUrl: '/contact',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop'
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop&q=80'
   },
   {
     id: 'echatravas',

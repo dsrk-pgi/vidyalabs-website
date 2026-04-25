@@ -10,7 +10,7 @@ const testimonials = [
     role: 'Principal, ABC International School',
     company: 'ABC International School',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
-    content: 'VidyaLabs transformed our campus management completely. The Smart Campus System has streamlined all our operations and improved efficiency by 60%.',
+    content: 'VidyaLabs transformed our campus management completely. eVidyalya has streamlined all our operations and improved efficiency by 60%.',
     rating: 5
   },
   {

@@ -15,7 +15,7 @@ const footerLinks = {
     { name: 'Industry Solutions', href: '/services#industry' },
   ],
   products: [
-    { name: 'Smart Campus System', href: '/products#smart-campus' },
+    { name: 'eVidyalya', href: '/products#evidyalya' },
     { name: 'eChatravas', href: '/products#echatravas' },
     { name: 'eAathithya', href: '/products#eaathithya' },
     { name: 'DesiDera', href: '/products#desidera' },
