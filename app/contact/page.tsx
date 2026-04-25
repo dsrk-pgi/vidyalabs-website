@@ -198,8 +198,39 @@ export default function ContactPage() {
                 </div>
               </div>
 
+              <div className="glass-card p-6 bg-gradient-to-br from-primary-50 to-purple-50 dark:from-primary-900/20 dark:to-purple-900/20 border-2 border-primary-200 dark:border-primary-800">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-purple-600 rounded-full flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 dark:text-white text-lg">24x7 Support Available</h3>
+                    <p className="text-sm text-primary-600 dark:text-primary-400 font-medium">Round-the-clock assistance</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 dark:text-gray-300 text-sm mb-4">
+                  Our dedicated support team is available 24 hours a day, 7 days a week to assist you with any queries or issues.
+                </p>
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    <span className="text-gray-700 dark:text-gray-300 font-medium">Emergency Support: Always Available</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <span className="text-gray-600 dark:text-gray-400">Email Response: Within 2 hours</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                    <span className="text-gray-600 dark:text-gray-400">Phone Support: Instant Connection</span>
+                  </div>
+                </div>
+              </div>
+
               <div className="glass-card p-6">
-                <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Business Hours</h3>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Office Hours</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-gray-600 dark:text-gray-400">Monday - Friday</span>
@@ -211,7 +242,12 @@ export default function ContactPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600 dark:text-gray-400">Sunday</span>
-                    <span className="text-gray-900 dark:text-white font-medium">Closed</span>
+                    <span className="text-gray-900 dark:text-white font-medium">By Appointment</span>
+                  </div>
+                  <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-xs text-gray-500 dark:text-gray-500">
+                      Note: Support services are available 24x7 even outside office hours
+                    </p>
                   </div>
                 </div>
               </div>

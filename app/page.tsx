@@ -6,6 +6,7 @@ import FeaturedProducts from '@/components/home/FeaturedProducts'
 import WhyVidyaLabs from '@/components/home/WhyVidyaLabs'
 import LiveDemos from '@/components/home/LiveDemos'
 import Testimonials from '@/components/home/Testimonials'
+import SupportBanner from '@/components/home/SupportBanner'
 import CallToAction from '@/components/home/CallToAction'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyVidyaLabs />
       <LiveDemos />
       <Testimonials />
+      <SupportBanner />
       <CallToAction />
     </div>
   )
