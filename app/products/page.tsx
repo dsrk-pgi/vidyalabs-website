@@ -30,7 +30,7 @@ const products = [
       'Data-driven insights'
     ],
     demoUrl: '/contact',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=600&fit=crop&q=80'
   },
   {
     id: 'echatravas',
